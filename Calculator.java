@@ -8,4 +8,8 @@ public class Calculator {
    public int divide(int numberA, int numberB){
 	   return (numberA>numberB) ? numberA/numberB : -1;
    }
+
+   public int multiplica(int numberA, int numberB){
+	   return numberA*numberB;
+   }
 }
